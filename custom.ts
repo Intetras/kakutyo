@@ -46,8 +46,13 @@ namespace kakutyo{
 
     }
 
-    //% blockID="test3" block="引数なし戻りなり"
+    //% blockID="test3" block="引数なし戻り値あり"
     export function test3(): number {
         return 100;
+    }
+
+    //% blockID="test4" block="引数あり戻り値あり"
+    export function test4(value:number): number {
+        return value + 100;
     }
 }
