@@ -35,4 +35,9 @@ namespace kakutyo{
     export function fib(value: number): number {
         return value <= 1 ? value : fib(value -1) + fib(value - 2);
     }
+
+    //% blockID="test1" block="引数無し変数無し"
+    export function test1():void{
+
+    }
 }
