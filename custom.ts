@@ -45,4 +45,9 @@ namespace kakutyo{
     export function test2(value:number): void {
 
     }
+
+    //% blockID="test3" block="引数なし戻りなり"
+    export function test3(): number {
+        return 100;
+    }
 }
