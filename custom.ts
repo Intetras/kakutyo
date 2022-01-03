@@ -36,8 +36,13 @@ namespace kakutyo{
         return value <= 1 ? value : fib(value -1) + fib(value - 2);
     }
 
-    //% blockID="test1" block="引数無し変数無し"
+    //% blockID="test1" block="引数無し戻り値無し"
     export function test1():void{
+
+    }
+
+    //% blockID="test2" block="引数あり戻り値無し"
+    export function test2(value:number): void {
 
     }
 }
