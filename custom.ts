@@ -41,7 +41,7 @@ namespace kakutyo{
 
     }
 
-    //% blockID="test2" block="引数あり戻り値無し"
+    //% blockID="test2" block="引数あり戻り値無し %v"
     export function test2(value:number): void {
 
     }
