@@ -14,7 +14,7 @@ enum MyEnum {
 /**
  * Custom blocks
  */
-//% weight=100 color=#0fbc11 icon="" block="拡張機能テスト"
+//% weight=100 color=#0fbc11 icon="\f8f6" block="拡張機能テスト"
 namespace kakutyo{
     /**
      * TODO: describe your function here
