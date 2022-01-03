@@ -51,7 +51,7 @@ namespace kakutyo{
         return 100;
     }
 
-    //% blockID="test4" block="引数あり戻り値あり"
+    //% blockID="test4" block="引数あり戻り値あり %v"
     export function test4(value:number): number {
         return value + 100;
     }
