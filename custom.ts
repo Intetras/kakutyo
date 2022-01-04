@@ -58,4 +58,5 @@ namespace kakutyo{
     export function test4(value:number): number {
         return value + 100;
     }
+    
 }
