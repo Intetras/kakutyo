@@ -61,5 +61,6 @@ namespace kakutyo{
     //% blockID="test5" block="ずっと"
     export function zutto(a:()=>void):void{
         kakutyo.zutto(a);
+        basic.pause(100);
     }
 }
