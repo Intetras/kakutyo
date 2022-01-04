@@ -46,6 +46,9 @@ namespace kakutyo{
 
     }
 
+    /*
+    戻り値ありにすると丸ブロック
+    */
     //% blockID="test3" block="引数なし戻り値あり"
     export function test3(): number {
         return 100;
