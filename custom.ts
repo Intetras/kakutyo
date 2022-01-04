@@ -58,7 +58,7 @@ namespace kakutyo{
     export function test4(value:number): number {
         return value + 100;
     }
-    
+    //% blockID="test5" block="ずっと"
     export function zutto(a:()=>void):void{
         kakutyo.zutto(a);
     }
