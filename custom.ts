@@ -59,4 +59,7 @@ namespace kakutyo{
         return value + 100;
     }
     
+    export function zutto(a:()=>void):void{
+        kakutyo.zutto(a);
+    }
 }
