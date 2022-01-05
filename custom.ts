@@ -73,4 +73,9 @@ namespace kakutyo{
     export function huruhuru(body:()=>void):void{
         input.onButtonPressed(Button.A,body);
     }
+
+    //% blockID="test8" block="明るい"
+    export function akarui():boolean{
+        return true;
+    }
 }
