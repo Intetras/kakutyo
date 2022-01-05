@@ -71,8 +71,6 @@ namespace kakutyo{
 
     //% blockID="test7" block="ふるふる"
     export function huruhuru(body:()=>void):void{
-        input.buttonIsPressed(Button.A);
-        
-        
+        input.onButtonPressed(Button.A,body);
     }
 }
