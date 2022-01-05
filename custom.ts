@@ -65,7 +65,7 @@ namespace kakutyo{
     }
 
     //% blockID="test6" block="一時停止 %v 秒"
-    export function pause(ms:number):void{
-        basic.pause(ms);
+    export function pause(sec:number):void{
+        basic.pause(sec * 1000);
     }
 }
