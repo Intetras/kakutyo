@@ -68,4 +68,9 @@ namespace kakutyo{
     export function pause(sec:number):void{
         basic.pause(sec * 1000);
     }
+
+    //% blockID="test7" block="ふるふる"
+    export function huruhuru(body:()=>void):void{
+        input.onGesture(Gesture.Shake,body);
+    }
 }
