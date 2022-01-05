@@ -76,6 +76,10 @@ namespace kakutyo{
 
     //% blockID="test8" block="明るい"
     export function akarui():boolean{
-        return true;
+        if(input.lightLevel() > 100){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
