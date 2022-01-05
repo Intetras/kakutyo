@@ -63,4 +63,9 @@ namespace kakutyo{
         kakutyo.zutto(a);
         basic.pause(100);
     }
+
+    //% blockID="test6" block="一時停止 %v 秒"
+    export function pause(ms:number):void{
+        basic.pause(ms);
+    }
 }
