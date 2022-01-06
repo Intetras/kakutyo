@@ -69,8 +69,8 @@ namespace kakutyo{
         basic.pause(sec * 1000);
     }
 
-    //% blockID="test7" block="ふるふる"
-    export function huruhuru(body:()=>void):void{
+    //% blockID="test7" block="%v　より明るい"
+    export function yoriakarui(akarusa:number,handler:()=>void){
         input.onButtonPressed(Button.A,body);
     }
 
