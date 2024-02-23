@@ -11,7 +11,8 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "custom.ts"
+        "custom.ts",
+        "_locales/ja/kakutyo-strings.json"
     ],
     "testFiles": [
         "test.ts"
